@@ -6,7 +6,7 @@
 
 ## 🔗 Live Demo
 
-👉 [Click here to view the live site](https://amanshekhawat-2910.github.io/fitness-landing-page/)
+👉 [Click here to view the live site](https://amansinghshekhawat29.github.io/fitness-landing-page/)
 
 ---
 
@@ -25,24 +25,47 @@
 
 ---
 
-## 📸 Screenshots
+📂 Clone the repo:  
+```bash
+git clone https://github.com/yourusername/Swasthya360.git
 
-| Home Page | Programs | Trainers |
-|-----------|----------|----------|
-| ![Home](./assets/home.png) | ![Programs](./assets/programs.png) | ![Trainers](./assets/trainers.png) |
+## 🧱 Tech Stack
 
-> *Note: Replace above images with actual screenshots from your project.*
-
----
-
-## 🛠️ Tech Stack
-
-- HTML5
-- CSS3 (Flexbox + Media Queries)
-- JavaScript (Vanilla)
+| Technology | Description                          |
+|------------|--------------------------------------|
+| HTML5      | Semantic structure                   |
+| CSS3       | Styling, layout, responsiveness      |
+| JavaScript | Smooth interactions and logic        |
+| Google Fonts | Custom typography                  |
+| Font Awesome (Optional) | Icons (Fitness, Yoga, etc.) |
 
 ---
 
-## 📂 Folder Structure
+🙌 Acknowledgements
+Inspired by real-world fitness branding.
 
-# fitness-landing-page
+Background image of Lord Hanuman signifies inner power, discipline & devotion.
+
+## 💡 Inspiration & Design Concept
+
+The idea behind Swasthya360 was to **create a fitness platform that’s culturally rooted yet modern**. The powerful image of **Lord Hanuman** in the background connects Indian strength, dedication, and spirituality with physical fitness. The testimonials and trainer sections are designed to reflect trust and transformation.
+
+---
+
+## ✍️ How I Built It
+
+This project helped me strengthen key frontend concepts such as:
+
+- Layout composition using Flexbox and Grid
+- Responsive design using media queries
+- Interactive elements with JavaScript
+- Using real client images and custom cards
+- Making a dark-themed UI balanced with vibrant callouts
+
+
+## 🧑‍💻 Author
+
+**Aman Pratap Singh Shekhawat**
+
+- 🐙 [GitHub Profile](https://github.com/Amansinghshekhawat29)
+- 📫 Reach out: [your-email@example.com](mailto:shekhawataman413@gmail.com)

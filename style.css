@@ -607,3 +607,55 @@ footer {
   color: white;
   font-weight: 500;
 }
+
+
+
+#videos {
+  background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+  padding: 60px 20px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+
+#videos .section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ffcc00;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.video-grid video {
+  width: 100%;
+  border-radius: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+  transition: all 0.3s ease;
+  background-color: #000;
+}
+
+.video-grid video:hover {
+  transform: scale(1.03);
+  border-color: #ffcc00;
+  box-shadow: 0 0 20px rgba(255, 204, 0, 0.7);
+}
+
+/* Fade-in Animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.8s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
